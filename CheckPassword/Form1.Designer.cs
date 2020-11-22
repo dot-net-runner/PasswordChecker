@@ -49,7 +49,7 @@
             this.PasswordStatus.Name = "PasswordStatus";
             this.PasswordStatus.Size = new System.Drawing.Size(50, 20);
             this.PasswordStatus.TabIndex = 1;
-            this.PasswordStatus.Text = "label1";
+            this.PasswordStatus.Text = "";
             // 
             // PasswordStatusPB
             // 
