@@ -10,7 +10,7 @@ namespace CheckPassword
         public Form1()
         {
             _passwordChecker = new PasswordChecker.PasswordChecker("Dataset.txt");
-            
+
             InitializeComponent();
         }
 
