@@ -1,22 +1,11 @@
-﻿using CheckPassword.SimpleNeuronNetwork;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
-using CheckPassword.PasswordChecker;
 
 namespace CheckPassword
 {
     public partial class Form1 : Form
     {
-        private CheckPassword.PasswordChecker.PasswordChecker _passwordChecker;
+        private PasswordChecker.PasswordChecker _passwordChecker;
 
         public Form1()
         {
